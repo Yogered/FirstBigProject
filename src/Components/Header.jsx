@@ -11,16 +11,16 @@ function Header() {
             </div>
 
             <div>
-                <a href=" " className={style.link} >About</a>
-                <a href=" " className={style.link} >Services</a>
-                <a href=" " className={style.link} >Case Studies</a>
-                <a href=" " className={style.link} >Blog</a>
-                <a href=" " className={style.link} >How it works</a>
-                <a href=" " className={style.link} >Hire</a>
+                <a href=" " className={style.HeaderLink}>About</a>
+                <a href=" " className={style.HeaderLink}>Services</a>
+                <a href=" " className={style.HeaderLink}>Case Studies</a>
+                <a href=" " className={style.HeaderLink}>Blog</a>
+                <a href=" " className={style.HeaderLink}>How it works</a>
+                <a href=" " className={style.HeaderLink}>Hire</a>
             </div>
 
             <div className={style.test}>
-                <button>
+                <button className={style.ButtonContact}>
                     Contact us
                 </button>
             </div>
