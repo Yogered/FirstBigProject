@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Header from './Components/Header';
+import Header from './Components/Header/Header.jsx';
 import reportWebVitals from './reportWebVitals';
+import FirstInfoPunel from './Components/FirstInfoPunel/FirstInfoPunel.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
+    <FirstInfoPunel/>
   </React.StrictMode>
 );
 
