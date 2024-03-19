@@ -1,5 +1,6 @@
 .Conteiner {
-    padding-top:80px;
+    height: 720px;
+    padding-top:70px;
     padding-bottom:106px;
 
     display: flex;
@@ -40,6 +41,7 @@
     background-color: #3D63EA;
     font-family: "Inter", sans-serif;
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* бляяяяя */
@@ -65,7 +67,7 @@
 }   
 
 .SecondGradient{
-    font-size: 53px;
+    font-size: 54px;
     font-family: "Inter", sans-serif;
     font-weight: 800;
 
@@ -77,4 +79,5 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     box-decoration-break: clone;
+
 }
